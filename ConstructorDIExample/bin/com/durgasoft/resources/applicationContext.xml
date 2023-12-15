@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="courseBean1" class="com.durgasoft.beans.Course"></bean>
+	<bean id="courseBean2" class="com.durgasoft.beans.Course">
+		<constructor-arg value="J14"/>
+	</bean>
+	<bean id="courseBean3" class="com.durgasoft.beans.Course">
+		<constructor-arg value="J14"/>
+		<constructor-arg value="Java full stack"/>
+	</bean>
+	<bean id="courseBean" class="com.durgasoft.beans.Course">
+		<constructor-arg value="J14"/>
+		<constructor-arg value="Java full stack"/>
+		<constructor-arg value="9999.85"/>
+	</bean>
+
+</beans>
