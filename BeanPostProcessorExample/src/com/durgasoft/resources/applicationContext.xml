@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="accBean" class="com.durgasoft.beans.Account">
+			<property name="ano" value="A-123"></property>
+			<property name="aHolderName" value="Sai prasad"></property>
+			<property name="abal" value="89965.235"></property>
+			<property name="atype" value="savings"></property>
+			<property name="aemail" value="saikilaru@gmail.com"></property>
+			<property name="aHolderMobile" value="7799109018"></property>
+		</bean>
+		<bean id="accBeanPostProcessor" class="com.durgasoft.processors.BeanPostProcessor"></bean>
+        
+</beans>
