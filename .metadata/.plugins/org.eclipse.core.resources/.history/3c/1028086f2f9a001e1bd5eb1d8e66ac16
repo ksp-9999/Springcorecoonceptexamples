@@ -1,0 +1,33 @@
+package com.durgasoft.beans;
+
+public class Student {
+	private String sname;
+	private String Sid;
+	private String Saddr;
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public String getSid() {
+		return Sid;
+	}
+	public void setSid(String sid) {
+		Sid = sid;
+	}
+	public String getSaddr() {
+		return Saddr;
+	}
+	public void setSaddr(String saddr) {
+		Saddr = saddr;
+	}
+	
+	public void getStudentDetails() {
+		System.out.println("Student Details");
+		System.out.println("---------------------------------");
+		System.out.println("Student ID: "+ this.Sid);
+		System.out.println("Student Name: "+this.sname);
+		System.out.println("Student Address: "+this.Saddr);
+	}
+}

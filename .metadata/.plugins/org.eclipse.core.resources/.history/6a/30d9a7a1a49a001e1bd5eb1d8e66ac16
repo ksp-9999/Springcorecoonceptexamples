@@ -1,0 +1,35 @@
+package com.durgasoft.beans;
+
+public class HelloBean {
+	private String name;
+	private String msg;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		System.out.println("Intializing name through setName()");
+		this.name = name;
+	}
+	public String getMsg() {
+		return msg;
+	}
+	public void setMsg(String msg) {
+		System.out.println("Intializing msg through setMsg()");
+		this.msg = msg;
+	}
+	
+	public void init() {
+		System.out.println("init()-method");
+		name="Nag";
+		msg="Good afternoon";
+	}
+	public void destroy() {
+		System.out.println("destroy()-method");
+		name=null;
+		msg=null;
+		sayHello();
+	}
+	public void sayHello() {
+		System.out.println("Hello "+this.name+"! "+this.msg);
+	}
+}
