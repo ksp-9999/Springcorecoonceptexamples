@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="empBean" class="com.durgasoft.beans.Employee" >
+			<property name="eid" value="E-11"></property>
+			<property name="ename" value="sai prasad"></property>
+			<property name="eaddr" value="Guntur, Andhra Pradesh"></property>
+			<property name="eacc" ref="accBean"></property>
+			<property name="esal" value="69995.52"></property>
+		</bean>
+		<bean id="accBean" class="com.durgasoft.beans.Account">
+						<property name="ano" value="A-11"></property>
+						<property name="aname" value="sai prasad"></property>
+						<property name="atype" value="savings"></property>
+						<property name="abal" value="49995.52"></property>
+		       </bean>
+        
+</beans>
