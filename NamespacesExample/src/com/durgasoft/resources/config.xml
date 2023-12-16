@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="empBean" class="com.durgasoft.beans.Employee" p:empId="E12" p:empName="Sai prasad" p:empSal="69784.54" p:empAcc-ref="accBean" p:empAddr="Guntur, Andhra Pradesh">
+		<!--<property name="empId" value="E12"></property>
+		<property name="empName" value="Sai prasad"></property>
+		<property name="empSal" value="69784.54"></property>
+		<property name="empAcc" ref="accBean"></property>
+		<property name="empAddr" value="Guntur, Andhra Pradesh"></property> -->
+	</bean>
+	<bean id="accBean" class="com.durgasoft.beans.Account">
+		<property name="accNo" value="SBI21313"></property>
+		<property name="accName" value="sai prasad"></property>
+		<property name="accType" value="Savings"></property>
+		<property name="accBal" value="784581"></property>
+	</bean>
+</beans>
