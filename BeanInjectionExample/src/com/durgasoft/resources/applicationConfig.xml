@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="studentBean" class="com.durgasoft.beans.Student">
+		<property name="sid" value="S12"></property>
+		<property name="sname" value="Sai prasad"></property>
+		<property name="saddr" ref="addrBean"></property>
+		<property name="qualifications">
+			<list>
+				<value>B.Tech</value>
+			    <value>M.Tech</value>
+			    <value>Phd</value>
+			</list>
+		</property>
+		<property name="scourses">
+			<set>
+				<value>Java</value>
+			    <value>Python</value>
+			    <value>C programming</value>
+			</set>
+		</property>
+		<property name="scourses_and_faculty">
+			<map>
+				<entry key="Java" value="Durga"></entry>
+				<entry key="Python" value="Nagoor"></entry>
+				<entry key="C_Programming" value="Saiprasad"></entry>
+			</map>
+		</property>
+		<property name="course_and_cost">
+			<props>
+				<prop key="Java" >2000</prop>
+				<prop key="Python" >3000</prop>
+				<prop key="C_Programming" >5000</prop>
+			</props>
+		</property>
+	</bean>
+	<bean id="addrBean" class="com.durgasoft.beans.Address">
+		<property name="houseNo" value="1-9"></property>
+		<property name="street" value="Hanuman temple"></property>
+		<property name="district" value="Palnadu"></property>
+		<property name="state" value="Andhra Pradesh"></property>
+		<property name="country" value="India"></property>
+	</bean>
+</beans>
