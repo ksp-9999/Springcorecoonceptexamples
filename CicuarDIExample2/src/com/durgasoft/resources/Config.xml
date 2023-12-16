@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="stuBean" class="com.durgasoft.beans.Student">
+		<constructor-arg value="s13"></constructor-arg>
+		<constructor-arg value="sai prasad"></constructor-arg>
+		<constructor-arg value="Guntur, Andhra Pradesh"></constructor-arg>
+		<property name="sid" value="s12"></property>
+		<property name="sname" value="sai prasad"></property>
+		<property name="saddr" value="Guntur, Andhra Pradesh"></property>
+	</bean>
+</beans>
