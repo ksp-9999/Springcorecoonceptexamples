@@ -17,11 +17,16 @@
 			<property name="state" value="Andra pradesh"></property>
 			<property name="pincode" value="522234"></property>
 		</bean>
-        <bean id="empBean" class="com.durgasoft.beans.Employee" autowire="byType">
-			<property name="eid" value="E-21"></property>
+        <bean id="empBean" class="com.durgasoft.beans.Employee" autowire="constructor">
+			<constructor-arg value="E-21"/>
+			<constructor-arg value="sai prasad"/>
+			<constructor-arg value="52000.56"/>
+			<constructor-arg ref="account"/>
+			<constructor-arg ref="address"/>
+			<!-- <property name="eid" value="E-21"></property>
 			<property name="eName" value="sai prasad"></property>
 			<property name="eSal" value="52000.56"></property>
-			<!--<property name="eAcc" ref="accBean"></property>
-			<property name="eaddr" ref="addrBean"></property>-->
+			<property name="eAcc" ref="accBean"></property>
+			<property name="eaddr" ref="addrBean"></property> -->
 		</bean>
 </beans>
