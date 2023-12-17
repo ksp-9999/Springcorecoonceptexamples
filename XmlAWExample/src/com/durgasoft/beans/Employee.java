@@ -3,11 +3,11 @@ package com.durgasoft.beans;
 public class Employee {
 	private String eid;
 	private String eName;
-	private float eSal;
+	private String eSal;
 	private Account account;
 	private Address address;
 	
-	public Employee(String eid,String eName,float eSal,Account account,Address address) {
+	public Employee(String eid,String eName,String eSal,Account account,Address address) {
 		this.eid=eid;
 		this.eName=eName;
 		this.eSal=eSal;
