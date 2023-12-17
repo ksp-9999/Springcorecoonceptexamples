@@ -4,9 +4,21 @@ public class Employee {
 	private String eid;
 	private String eName;
 	private float eSal;
-	private Account eAcc;
-	private Address eaddr;
+	private Account account;
+	private Address address;
 	
+	public Account getAccount() {
+		return account;
+	}
+	public void setAccount(Account account) {
+		this.account = account;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public String getEid() {
 		return eid;
 	}
@@ -25,18 +37,7 @@ public class Employee {
 	public void seteSal(float eSal) {
 		this.eSal = eSal;
 	}
-	public Account geteAcc() {
-		return eAcc;
-	}
-	public void seteAcc(Account eAcc) {
-		this.eAcc = eAcc;
-	}
-	public Address getEaddr() {
-		return eaddr;
-	}
-	public void setEaddr(Address eaddr) {
-		this.eaddr = eaddr;
-	}
+	
 	
 	public void getEmpDetails() {
 		System.out.println("*********Employee Details**************");
@@ -45,16 +46,16 @@ public class Employee {
 		System.out.println("Salary: "+eSal);
 		System.out.println();
 		System.out.println("Address");
-		System.out.println("House No: "+eaddr.getHno());
-		System.out.println("Street: "+eaddr.getStreet());
-		System.out.println("State: "+eaddr.getState());
-		System.out.println("PIN: "+eaddr.getPincode());
+		System.out.println("House No: "+address.getHno());
+		System.out.println("Street: "+address.getStreet());
+		System.out.println("State: "+address.getState());
+		System.out.println("PIN: "+address.getPincode());
 		System.out.println();
 		System.out.println("Account Details");
-		System.out.println("No: "+eAcc.getAccNo());
-		System.out.println("Name: "+eAcc.getAccName());
-		System.out.println("Type: "+eAcc.getAccType());
-		System.out.println("Balance: "+eAcc.getAccBal());
+		System.out.println("No: "+account.getAccNo());
+		System.out.println("Name: "+account.getAccName());
+		System.out.println("Type: "+account.getAccType());
+		System.out.println("Balance: "+account.getAccBal());
 		System.out.println("-----------------------------The End-----------------------------");
 		
 	}
