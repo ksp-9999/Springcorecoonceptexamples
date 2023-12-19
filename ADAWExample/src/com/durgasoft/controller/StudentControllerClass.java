@@ -77,7 +77,18 @@ System.out.println("Student already exits!");
 
 	@Override
 	public void updateStudent() {
-
+		try {
+			System.out.print("Enter student id: ");
+			String sid=br.readLine();
+			Student stu= ssc.getStudent(sid);
+			if(stu==null) {
+				System.out.println("Student does not exist!");
+			}else {
+				
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override
