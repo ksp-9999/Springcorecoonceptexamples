@@ -31,8 +31,10 @@ public class Test {
 				studentcontroller.searchStudent();
 				break;
 			case 3:
+				studentcontroller.updateStudent();
 				break;
 			case 4:
+				studentcontroller.deleteStudent();
 				break;
 			case 5:
 				System.out.println("Thank you!. Visit again..");

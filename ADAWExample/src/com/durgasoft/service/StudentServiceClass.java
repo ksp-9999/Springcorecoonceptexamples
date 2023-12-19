@@ -19,8 +19,8 @@ public class StudentServiceClass implements StudentService {
 
 	@Override
 	public Student searchStudent(String sid) {
-		// TODO Auto-generated method stub
-		return null;
+		Student stu= Sdaoclass.search(sid);
+		return stu;
 	}
 
 	@Override

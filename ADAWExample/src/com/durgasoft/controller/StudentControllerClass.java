@@ -57,7 +57,22 @@ System.out.println("Student already exits!");
 
 	@Override
 	public void searchStudent() {
-		
+		try {
+			System.out.print("Student ID:");
+			String sid=br.readLine();
+			Student stu=ssc.searchStudent(sid);
+			if(stu==null) {
+				System.out.println("student not existed");
+			}else {
+				System.out.println("Student Details");
+				System.out.println("----------------------------");
+				System.out.println("Student Id: "+stu.getSid());
+				System.out.println("Student name: "+stu.getSname());
+				System.out.println("Student address: "+stu.getSaddr());
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 
 	@Override
