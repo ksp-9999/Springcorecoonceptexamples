@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="corseBean" class="com.durgasoft.beans.Course"  scope="prototype">
+        <property name="cid" value="C-11"></property>
+        <property name="cname" value="Java"></property>
+        <property name="ccost" value="6000"></property>
+    </bean>
+    
+    <bean id="studentBean" class="com.durgasoft.beans.Student" scope="singleton">
+        <property name="sid" value="S-11"></property>
+        <property name="sname" value="Sai prasad"></property>
+        <property name="saddr" value="Guntur"></property>
+        <property name="scourse" ref="corseBean"></property>
+    </bean>
+</beans>
