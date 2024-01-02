@@ -1,16 +1,24 @@
 package com.durgasoft.beans;
 
-public class CurrentAccount {
-	public void createAccont() {
+public class CurrentAccount implements Account{
+	@Override
+	public void createAccount() {
 		System.out.println("Account created");
 	}
-	public void searchAccont() {
+	@Override
+	public void searchAccount() {
 		System.out.println("account searched");
+		
 	}
-	public void updateAccont() {
-		System.out.println("Account updated");
-	}
-	public void deleteAccont() {
+	@Override
+	public void deleteAccount() {
 		System.out.println("Account deleted");
+		
+	}
+	@Override
+	public void updateAccount() {
+		// TODO Auto-generated method stub
+		System.out.println("Account updated");
+		
 	}
 }

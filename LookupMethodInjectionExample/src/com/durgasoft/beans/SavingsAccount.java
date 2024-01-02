@@ -1,16 +1,20 @@
 package com.durgasoft.beans;
 
-public class SavingsAccount {
-	public void createAccont() {
+public class SavingsAccount implements Account{
+	@Override
+	public void createAccount() {
 		System.out.println("Account created");
 	}
-	public void searchAccont() {
+	@Override
+	public void searchAccount() {
 		System.out.println("account searched");
 	}
-	public void updateAccont() {
-		System.out.println("Account updated");
-	}
-	public void deleteAccont() {
+	@Override
+	public void deleteAccount() {
 		System.out.println("Account deleted");
+	}
+	@Override
+	public void updateAccount() {
+		System.out.println("Account updated");
 	}
 }
