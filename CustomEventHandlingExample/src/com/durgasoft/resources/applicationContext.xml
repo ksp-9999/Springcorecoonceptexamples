@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="accountBean" class="com.durgasoft.beans.Account">
+		<property name="publisher" ref="accountEventPublisherBean"></property>
+	</bean>
+    <bean id="accountEventPublisherBean" class="com.durgasoft.publisher.AccountEventPublisher"></bean>
+    <bean id="accountEventHandlerBean" class="com.durgasoft.handler.AccountEventHandler"></bean>
+
+</beans>

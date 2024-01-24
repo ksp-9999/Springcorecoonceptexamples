@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+   <bean id="userValidator" class="com.durgasoft.validators.userValidator">
+	   <property name="resource" value="/com/durgasoft/resources/ErrorMessages.properties"></property>
+   </bean>
+   <bean id="userBean" class="com.durgasoft.beans.User">
+        <property name="uname" value="Rick"/>
+        <property name="upswd" value="Rick25Rick25Rick25Rick25Rick25Rick25"/>
+        <property name="uage" value="17"/>
+        <property name="ueamil" value="Rick25gmail.com"/>
+        <property name="umobile" value="91-7799458462"/>
+    </bean>
+
+</beans>
