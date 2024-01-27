@@ -10,10 +10,10 @@
         <property name="esal" value="85697.56"/>
         <property name="eaddr" value="23/12-MGRoad-Hyderabad-Telangana-India"/>
     </bean>
-    <bean id="customEditorConfigurer" class="corg.springframework.beans.factory.config.CustomEditorConfigurer">
-		<property name="customEditor">
+    <bean class="corg.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditors">
 			<map>
-				<entry key="com.durgasoft.beans.EmpAddress" value="com.durgasoft.editors.EmpAddressEditor.java"/>
+				<entry key="com.durgasoft.beans.EmpAddress" value="com.durgasoft.editors.EmpAddressEditor"/>
 			</map>
 		</property>
 	</bean>
