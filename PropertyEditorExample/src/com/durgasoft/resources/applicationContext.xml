@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="empBean" class="com.durgasoft.beans.Employee">
+        <property name="eno" value="111"/>
+        <property name="ename" value="sai prasad"/>
+        <property name="esal" value="85697.56"/>
+        <property name="eaddr" value="23/12-MGRoad-Hyderabad-Telangana-India"/>
+    </bean>
+    <bean id="customEditorConfigurer" class="corg.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditor">
+			<map>
+				<entry key="com.durgasoft.beans.EmpAddress" value="com.durgasoft.editors.EmpAddressEditor.java"/>
+			</map>
+		</property>
+	</bean>
+
+</beans>
