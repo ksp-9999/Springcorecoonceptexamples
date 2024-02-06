@@ -9717,3 +9717,1435 @@ org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type gro
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-01-30 10:35:44.781 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-30 10:35:50.257
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-30 10:35:59.210
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2024-01-30 10:36:25.667
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-30 10:36:25.668
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-30 10:36:37.149
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/DELL/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1706591197146
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:37.152
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-30 10:36:37.191
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 28596
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-30 10:36:41.754
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.409
+!MESSAGE Boot project ADDED: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.413
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.417
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.423
+!MESSAGE Boot project ADDED: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.424
+!MESSAGE Boot project ADDED: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.425
+!MESSAGE Boot project ADDED: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.427
+!MESSAGE Boot project ADDED: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.430
+!MESSAGE Boot project ADDED: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.434
+!MESSAGE Boot project ADDED: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.437
+!MESSAGE Boot project ADDED: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.439
+!MESSAGE Boot project ADDED: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.442
+!MESSAGE Boot project ADDED: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.444
+!MESSAGE Boot project ADDED: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.446
+!MESSAGE Boot project ADDED: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.447
+!MESSAGE Boot project ADDED: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.449
+!MESSAGE Boot project ADDED: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.454
+!MESSAGE Boot project ADDED: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.456
+!MESSAGE Boot project ADDED: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.459
+!MESSAGE Boot project ADDED: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.461
+!MESSAGE Boot project ADDED: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.463
+!MESSAGE Boot project ADDED: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.466
+!MESSAGE Boot project ADDED: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.469
+!MESSAGE Boot project ADDED: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.471
+!MESSAGE Boot project ADDED: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.473
+!MESSAGE Boot project ADDED: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.474
+!MESSAGE Boot project ADDED: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.476
+!MESSAGE Boot project ADDED: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.477
+!MESSAGE Boot project ADDED: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.485
+!MESSAGE Boot project ADDED: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.487
+!MESSAGE Boot project ADDED: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.488
+!MESSAGE Boot project ADDED: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.491
+!MESSAGE Boot project ADDED: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.491
+!MESSAGE Boot project ADDED: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.493
+!MESSAGE Boot project ADDED: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.495
+!MESSAGE Boot project ADDED: app01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.496
+!MESSAGE Boot project ADDED: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.499
+!MESSAGE Boot project ADDED: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-30 10:36:42.500
+!MESSAGE Boot project ADDED: customScopeExample
+!SESSION 2024-02-02 09:15:54.295 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-02 09:15:57.894
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-02-02 09:16:23.771
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-02 09:16:23.771
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-02 09:16:32.803
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/DELL/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1706845592792
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:32.805
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-02 09:16:32.888
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 31600
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-02 09:16:35.615
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.716
+!MESSAGE Boot project ADDED: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.718
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.720
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.721
+!MESSAGE Boot project ADDED: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.722
+!MESSAGE Boot project ADDED: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.723
+!MESSAGE Boot project ADDED: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.724
+!MESSAGE Boot project ADDED: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.725
+!MESSAGE Boot project ADDED: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.726
+!MESSAGE Boot project ADDED: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.728
+!MESSAGE Boot project ADDED: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.730
+!MESSAGE Boot project ADDED: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.731
+!MESSAGE Boot project ADDED: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.732
+!MESSAGE Boot project ADDED: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.733
+!MESSAGE Boot project ADDED: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.734
+!MESSAGE Boot project ADDED: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.735
+!MESSAGE Boot project ADDED: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.736
+!MESSAGE Boot project ADDED: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.737
+!MESSAGE Boot project ADDED: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.738
+!MESSAGE Boot project ADDED: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.739
+!MESSAGE Boot project ADDED: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.740
+!MESSAGE Boot project ADDED: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.741
+!MESSAGE Boot project ADDED: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.742
+!MESSAGE Boot project ADDED: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.743
+!MESSAGE Boot project ADDED: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.744
+!MESSAGE Boot project ADDED: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.745
+!MESSAGE Boot project ADDED: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.746
+!MESSAGE Boot project ADDED: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.747
+!MESSAGE Boot project ADDED: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.749
+!MESSAGE Boot project ADDED: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.752
+!MESSAGE Boot project ADDED: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.753
+!MESSAGE Boot project ADDED: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.754
+!MESSAGE Boot project ADDED: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.755
+!MESSAGE Boot project ADDED: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.757
+!MESSAGE Boot project ADDED: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.758
+!MESSAGE Boot project ADDED: app01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.760
+!MESSAGE Boot project ADDED: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.761
+!MESSAGE Boot project ADDED: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-02 09:16:36.762
+!MESSAGE Boot project ADDED: customScopeExample
+
+!ENTRY org.eclipse.jface 2 0 2024-02-02 14:21:56.141
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-02 14:21:56.144
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-02-02 14:22:06.829
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-02-02 14:22:06.854
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.CompletionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2480)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.cancel(LSPLinkedEditingBase.java:85)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingBase.collectLinkedEditingRanges(LSPLinkedEditingBase.java:53)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:165)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.updateLinkedEditing(LSPLinkedEditingReconcilingStrategy.java:154)
+	at org.eclipse.lsp4e.operations.linkedediting.LSPLinkedEditingReconcilingStrategy.lambda$0(LSPLinkedEditingReconcilingStrategy.java:132)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	... 30 more
+!SESSION 2024-02-04 13:01:20.659 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-04 13:01:23.469
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-02-04 13:01:54.005
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-04 13:01:54.005
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-04 13:02:01.325
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/DELL/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1707031921324
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:01.325
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-04 13:02:01.530
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17548
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-04 13:02:05.006
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:05.319
+!MESSAGE Boot project ADDED: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:05.323
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:05.327
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.114
+!MESSAGE Boot project ADDED: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.118
+!MESSAGE Boot project ADDED: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.137
+!MESSAGE Boot project ADDED: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.139
+!MESSAGE Boot project ADDED: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.167
+!MESSAGE Boot project ADDED: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.168
+!MESSAGE Boot project ADDED: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.170
+!MESSAGE Boot project ADDED: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.185
+!MESSAGE Boot project ADDED: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.186
+!MESSAGE Boot project ADDED: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.212
+!MESSAGE Boot project ADDED: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.213
+!MESSAGE Boot project ADDED: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.239
+!MESSAGE Boot project ADDED: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.241
+!MESSAGE Boot project ADDED: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.242
+!MESSAGE Boot project ADDED: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.266
+!MESSAGE Boot project ADDED: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.268
+!MESSAGE Boot project ADDED: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.312
+!MESSAGE Boot project ADDED: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.313
+!MESSAGE Boot project ADDED: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.315
+!MESSAGE Boot project ADDED: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.319
+!MESSAGE Boot project ADDED: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.325
+!MESSAGE Boot project ADDED: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.347
+!MESSAGE Boot project ADDED: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.348
+!MESSAGE Boot project ADDED: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.350
+!MESSAGE Boot project ADDED: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.370
+!MESSAGE Boot project ADDED: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.378
+!MESSAGE Boot project ADDED: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.379
+!MESSAGE Boot project ADDED: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.384
+!MESSAGE Boot project ADDED: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.553
+!MESSAGE Boot project ADDED: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.561
+!MESSAGE Boot project ADDED: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.565
+!MESSAGE Boot project ADDED: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.572
+!MESSAGE Boot project ADDED: app01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.587
+!MESSAGE Boot project ADDED: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.600
+!MESSAGE Boot project ADDED: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:06.615
+!MESSAGE Boot project ADDED: customScopeExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.528
+!MESSAGE Classpath changed for project: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.533
+!MESSAGE Classpath changed for project: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.552
+!MESSAGE Classpath changed for project: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.554
+!MESSAGE Classpath changed for project: BMBWExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.611
+!MESSAGE Classpath changed for project: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.617
+!MESSAGE Classpath changed for project: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.620
+!MESSAGE Classpath changed for project: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.621
+!MESSAGE Classpath changed for project: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.622
+!MESSAGE Classpath changed for project: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.626
+!MESSAGE Classpath changed for project: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.633
+!MESSAGE Classpath changed for project: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.635
+!MESSAGE Classpath changed for project: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.635
+!MESSAGE Classpath changed for project: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.637
+!MESSAGE Classpath changed for project: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.639
+!MESSAGE Classpath changed for project: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.642
+!MESSAGE Classpath changed for project: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.643
+!MESSAGE Classpath changed for project: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.651
+!MESSAGE Classpath changed for project: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.652
+!MESSAGE Classpath changed for project: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.653
+!MESSAGE Classpath changed for project: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.655
+!MESSAGE Classpath changed for project: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.668
+!MESSAGE Classpath changed for project: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.675
+!MESSAGE Classpath changed for project: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.675
+!MESSAGE Classpath changed for project: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.677
+!MESSAGE Classpath changed for project: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.678
+!MESSAGE Classpath changed for project: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.683
+!MESSAGE Classpath changed for project: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.689
+!MESSAGE Classpath changed for project: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.702
+!MESSAGE Classpath changed for project: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.704
+!MESSAGE Classpath changed for project: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.705
+!MESSAGE Classpath changed for project: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.706
+!MESSAGE Classpath changed for project: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.708
+!MESSAGE Classpath changed for project: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.711
+!MESSAGE Classpath changed for project: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.713
+!MESSAGE Classpath changed for project: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-04 13:02:12.714
+!MESSAGE Classpath changed for project: customScopeExample
+!SESSION 2024-02-05 12:18:43.284 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-05 12:18:46.763
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-05 12:18:51.870
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2024-02-05 12:19:19.385
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-05 12:19:19.385
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-05 12:19:26.150
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/DELL/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1707115766148
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:26.151
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-05 12:19:26.186
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12856
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-05 12:19:29.332
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.239
+!MESSAGE Boot project ADDED: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.241
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.245
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.247
+!MESSAGE Boot project ADDED: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.259
+!MESSAGE Boot project ADDED: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.260
+!MESSAGE Boot project ADDED: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.263
+!MESSAGE Boot project ADDED: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.265
+!MESSAGE Boot project ADDED: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.266
+!MESSAGE Boot project ADDED: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.267
+!MESSAGE Boot project ADDED: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.268
+!MESSAGE Boot project ADDED: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.270
+!MESSAGE Boot project ADDED: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.272
+!MESSAGE Boot project ADDED: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.273
+!MESSAGE Boot project ADDED: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.274
+!MESSAGE Boot project ADDED: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.276
+!MESSAGE Boot project ADDED: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.277
+!MESSAGE Boot project ADDED: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.278
+!MESSAGE Boot project ADDED: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.280
+!MESSAGE Boot project ADDED: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.314
+!MESSAGE Boot project ADDED: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.316
+!MESSAGE Boot project ADDED: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.317
+!MESSAGE Boot project ADDED: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.318
+!MESSAGE Boot project ADDED: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.320
+!MESSAGE Boot project ADDED: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.323
+!MESSAGE Boot project ADDED: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.324
+!MESSAGE Boot project ADDED: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.326
+!MESSAGE Boot project ADDED: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.327
+!MESSAGE Boot project ADDED: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.328
+!MESSAGE Boot project ADDED: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.330
+!MESSAGE Boot project ADDED: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.332
+!MESSAGE Boot project ADDED: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.334
+!MESSAGE Boot project ADDED: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.336
+!MESSAGE Boot project ADDED: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.338
+!MESSAGE Boot project ADDED: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.346
+!MESSAGE Boot project ADDED: app01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.353
+!MESSAGE Boot project ADDED: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.354
+!MESSAGE Boot project ADDED: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:19:32.358
+!MESSAGE Boot project ADDED: customScopeExample
+
+!ENTRY org.eclipse.jface 2 0 2024-02-05 12:20:21.642
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-05 12:20:21.643
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.038
+!MESSAGE Classpath changed for project: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.039
+!MESSAGE Classpath changed for project: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.040
+!MESSAGE Classpath changed for project: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.041
+!MESSAGE Classpath changed for project: BMBWExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.042
+!MESSAGE Classpath changed for project: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.043
+!MESSAGE Classpath changed for project: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.044
+!MESSAGE Classpath changed for project: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.045
+!MESSAGE Classpath changed for project: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.046
+!MESSAGE Classpath changed for project: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.048
+!MESSAGE Classpath changed for project: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.048
+!MESSAGE Classpath changed for project: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.049
+!MESSAGE Classpath changed for project: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.050
+!MESSAGE Classpath changed for project: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.052
+!MESSAGE Classpath changed for project: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.053
+!MESSAGE Classpath changed for project: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.054
+!MESSAGE Classpath changed for project: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.055
+!MESSAGE Classpath changed for project: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.056
+!MESSAGE Classpath changed for project: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.059
+!MESSAGE Classpath changed for project: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.061
+!MESSAGE Classpath changed for project: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.062
+!MESSAGE Classpath changed for project: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.063
+!MESSAGE Classpath changed for project: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.064
+!MESSAGE Classpath changed for project: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.065
+!MESSAGE Classpath changed for project: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.066
+!MESSAGE Classpath changed for project: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.067
+!MESSAGE Classpath changed for project: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.068
+!MESSAGE Classpath changed for project: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.069
+!MESSAGE Classpath changed for project: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.070
+!MESSAGE Classpath changed for project: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.071
+!MESSAGE Classpath changed for project: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.073
+!MESSAGE Classpath changed for project: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.074
+!MESSAGE Classpath changed for project: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.075
+!MESSAGE Classpath changed for project: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.076
+!MESSAGE Classpath changed for project: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.077
+!MESSAGE Classpath changed for project: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.078
+!MESSAGE Classpath changed for project: customScopeExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:20:41.079
+!MESSAGE Classpath changed for project: SPELExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:21:01.609
+!MESSAGE Classpath changed for project: SPELExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 12:21:01.610
+!MESSAGE Boot project ADDED: SPELExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 16:04:26.090
+!MESSAGE Classpath changed for project: SPELExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 16:04:43.823
+!MESSAGE Classpath changed for project: SPELExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-05 16:04:43.824
+!MESSAGE Boot project ADDED: SPELExample2
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-02-05 16:35:58.186
+!MESSAGE Could not retrieve superclass
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type com.google.protobuf.GeneratedMessageV3 cannot be resolved. It is indirectly referenced from required type com.mysql.cj.x.protobuf.MysqlxConnection.Compression
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5183)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superclass(BinaryTypeBinding.java:2368)
+	at org.eclipse.jdt.core.dom.TypeBinding.getSuperclass(TypeBinding.java:857)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.isInherited(UnresolvedElementsSubProcessor.java:949)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarTypeProposals(UnresolvedElementsSubProcessor.java:917)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:686)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:456)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:379)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:337)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-05 16:53:56.806
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2024-02-06 08:01:45.676 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-06 08:01:49.688
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-06 08:01:54.348
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2024-02-06 08:02:22.416
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-06 08:02:22.416
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-06 08:02:32.618
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\DELL\OneDrive\Desktop\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/DELL/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1707186752616
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:32.620
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-02-06 08:02:32.665
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 33968
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-06 08:02:35.502
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.552
+!MESSAGE Boot project ADDED: ADAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.554
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.557
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.558
+!MESSAGE Boot project ADDED: AnnotationBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.559
+!MESSAGE Boot project ADDED: ApplicationContextExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.561
+!MESSAGE Boot project ADDED: BMBWExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.563
+!MESSAGE Boot project ADDED: BMBWExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.564
+!MESSAGE Boot project ADDED: BeanInheritanceExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.566
+!MESSAGE Boot project ADDED: BeanInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.572
+!MESSAGE Boot project ADDED: BeanLifecycleExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.573
+!MESSAGE Boot project ADDED: BeanLifecycleexample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.575
+!MESSAGE Boot project ADDED: BeanPostProcessExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.577
+!MESSAGE Boot project ADDED: BeanValidations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.579
+!MESSAGE Boot project ADDED: CicuarDIExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.580
+!MESSAGE Boot project ADDED: CircularDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.582
+!MESSAGE Boot project ADDED: ConstructorDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.583
+!MESSAGE Boot project ADDED: CustomEventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.585
+!MESSAGE Boot project ADDED: EventHandlingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.586
+!MESSAGE Boot project ADDED: ExplicitAndAutoExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.588
+!MESSAGE Boot project ADDED: I18NExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.589
+!MESSAGE Boot project ADDED: I18NExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.591
+!MESSAGE Boot project ADDED: InitializAndDestructionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.592
+!MESSAGE Boot project ADDED: JavaBasedAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.593
+!MESSAGE Boot project ADDED: JavaBasedConfigExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.596
+!MESSAGE Boot project ADDED: LookupMethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.597
+!MESSAGE Boot project ADDED: MethodInjectionExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.599
+!MESSAGE Boot project ADDED: MethodReplacementMI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.601
+!MESSAGE Boot project ADDED: NameSpaceExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.603
+!MESSAGE Boot project ADDED: NamespacesExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.604
+!MESSAGE Boot project ADDED: NestedBeanExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.605
+!MESSAGE Boot project ADDED: ProfilingExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.607
+!MESSAGE Boot project ADDED: PropertyEditorExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.607
+!MESSAGE Boot project ADDED: SPELExample1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.609
+!MESSAGE Boot project ADDED: SPELExample2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.611
+!MESSAGE Boot project ADDED: SetterMethodDIExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.612
+!MESSAGE Boot project ADDED: XmlAWExample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.613
+!MESSAGE Boot project ADDED: app01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.614
+!MESSAGE Boot project ADDED: app02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.615
+!MESSAGE Boot project ADDED: app3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:02:37.618
+!MESSAGE Boot project ADDED: customScopeExample
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 08:03:02.966
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:03:33.807
+!MESSAGE Classpath changed for project: SPELExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:03:53.982
+!MESSAGE Classpath changed for project: SPELExample3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:03:53.983
+!MESSAGE Boot project ADDED: SPELExample3
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 08:10:34.119
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 08:28:25.678
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:39:42.907
+!MESSAGE Classpath changed for project: SPELExample4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:40:06.026
+!MESSAGE Classpath changed for project: SPELExample4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 08:40:06.026
+!MESSAGE Boot project ADDED: SPELExample4
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 08:44:03.978
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 08:54:02.457
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-02-06 08:59:01.922
+!MESSAGE Could not retrieve superclass
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type com.google.protobuf.GeneratedMessageV3 cannot be resolved. It is indirectly referenced from required type com.mysql.cj.x.protobuf.MysqlxConnection.Compression
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:161)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:228)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2693)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5183)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superclass(BinaryTypeBinding.java:2368)
+	at org.eclipse.jdt.core.dom.TypeBinding.getSuperclass(TypeBinding.java:857)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.isInherited(UnresolvedElementsSubProcessor.java:949)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarTypeProposals(UnresolvedElementsSubProcessor.java:917)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:686)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:456)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:379)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:384)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:337)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 09:25:14.318
+!MESSAGE Classpath changed for project: SPELExample5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 09:25:30.714
+!MESSAGE Classpath changed for project: SPELExample5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-02-06 09:25:30.715
+!MESSAGE Boot project ADDED: SPELExample5
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-02-06 11:50:34.333
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
